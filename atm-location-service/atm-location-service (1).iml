@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="jboss-deployment-structure.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/target/generated-sources/swagger/src/main/java" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="MavenCustomPomFilePath">
+    <option name="mavenPomFileUrl" value="file://$MODULE_DIR$/pom-as-dependency.xml" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.10.RELEASE/target/classes" />
+    <output-test url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.10.RELEASE/target/test-classes" />
+    <content url="file://$MODULE_DIR$/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/src/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/src/test/resources">
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/target/generated-sources/swagger/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/swagger/src/main/java" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

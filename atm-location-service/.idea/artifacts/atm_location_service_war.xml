@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="atm-location-service:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>atm-location-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="atm-location-service-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="atm-location-service:war exploded" />
+    </root>
+  </artifact>
+</component>
